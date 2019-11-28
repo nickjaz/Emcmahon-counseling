@@ -1,0 +1,20 @@
+html {
+  font-family: $body-font;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $light;
+  color: $dark;
+}
+
+a {
+  text-decoration: none;
+  color: $dark;
+  font-family: $link-font;
+}
+
+a:hover {
+  color: $medium;
+  text-decoration: none;
+}

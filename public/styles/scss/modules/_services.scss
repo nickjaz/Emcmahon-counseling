@@ -1,0 +1,61 @@
+#services {
+  .service-topper {
+    margin: 4vw 0 2vw 0;
+  }
+  .service-description {
+    margin: 2vw 0;
+    padding: 0 30px;
+
+      .service-header {
+        text-align: center;
+        color: $light;
+        font-family: $header-font;
+        text-shadow: 1px 1px 1px #333;
+      }
+
+      .service-header + div {
+        margin-top: 2vw;
+      }
+
+      .one {
+      background: url(../../../images/many_lights_min.jpg) #666 no-repeat;
+      background-position-y: 35%;
+      background-position-x: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: auto;
+      width: 100%;
+      position: relative;
+    }
+
+    .two {
+      background: url(../../../images/pink_flower_bird_min.jpg) #666 no-repeat;
+      background-position-y: 43%;
+      background-position-x: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: auto;
+      width: 100%;
+      position: relative;
+    }
+
+    .three {
+      background: url(../../../images/succulents_min.jpg) #666 no-repeat;
+      background-position-y: 35%;
+      background-position-x: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: auto;
+      width: 100%;
+      position: relative;
+    }
+  }
+
+
+}

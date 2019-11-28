@@ -1,0 +1,242 @@
+html {
+  font-family: "Jaldi", sans-serif;
+  scroll-behavior: smooth; }
+
+body {
+  background-color: #f7f2d6;
+  color: #383731; }
+
+a {
+  text-decoration: none;
+  color: #383731;
+  font-family: "Copse", serif; }
+
+a:hover {
+  color: #787668;
+  text-decoration: none; }
+
+.navbar-toggler {
+  border: none;
+  padding: 0;
+  outline: none;
+  color: #383731; }
+
+.navbar-toggler:focus {
+  outline: none; }
+
+.container {
+  padding: 0 2vw; }
+
+.divider {
+  margin: 2vw auto;
+  height: 1px;
+  width: 70%;
+  box-shadow: 1px 1px 1px #888; }
+
+.footer {
+  margin-top: 10vw;
+  background: url(../../../images/hero_min.jpg) #666 no-repeat;
+  background-position-y: 93%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 4vh;
+  width: 100%;
+  position: relative;
+  opacity: 1; }
+  .footer .created-by {
+    color: #f7f2d6;
+    font-family: "Copse", serif;
+    text-shadow: 1px 1px 1px #333;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 2vw;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav {
+    margin: 0 auto; }
+
+  .nav-link {
+    margin: -1vw 8vw; } }
+#about .about-description {
+  padding: 0 15px;
+  margin: 2vw 0; }
+#about .education {
+  margin-top: 2vw;
+  font-size: 0.8rem; }
+  #about .education li {
+    margin: 0.5vw 0; }
+#about .about-header {
+  margin: 1vw auto;
+  color: #f7f2d6;
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  text-shadow: 1px 1px 1px #333;
+  background: url(../../../images/old_tree_min.jpg) #666 no-repeat;
+  background-position-y: 31%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  position: relative;
+  opacity: 1; }
+#about .headshot-container {
+  position: relative;
+  height: 100%; }
+#about .headshot {
+  width: 92%;
+  height: 180px;
+  padding: 0 15px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  background: url(../../../images/ellen_headshot.jpg) #666 no-repeat;
+  background-position-y: 23%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  opacity: 1; }
+
+@media (min-width: 768px) {
+  #about .education {
+    margin-top: 0; } }
+#contact .container {
+  margin-top: 2vw; }
+#contact .contact-header {
+  font-family: "Playball", cursive;
+  letter-spacing: .1rem;
+  font-size: 4.5vw;
+  padding: 2vw;
+  text-align: center; }
+#contact .contact-item {
+  padding: 0 15px;
+  margin: 1vw auto; }
+#contact .contact-link {
+  margin-left: 1vw;
+  letter-spacing: .075rem; }
+#contact .map-container {
+  padding: 0 15px;
+  margin: 4vw auto;
+  height: 35vh;
+  width: 100%; }
+#contact #map {
+  width: 100%;
+  height: 35vh; }
+
+@media (min-width: 768px) {
+  #contact .container {
+    margin-top: 0; }
+  #contact .contact-header {
+    font-size: 3vw;
+    letter-spacing: .2rem; }
+  #contact .map-container {
+    width: 80%; } }
+@media (min-width: 992px) {
+  #contact .contact-link {
+    margin-left: 0; }
+  #contact .map-container {
+    height: 50vh; }
+  #contact #map {
+    height: 50vh; } }
+.hero-image {
+  background: url(../../../images/hero_min.jpg) #666 no-repeat;
+  background-position-y: 35%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 45vh;
+  width: 100%;
+  position: relative;
+  opacity: 1; }
+
+.home-container .header {
+  margin-top: 4vh;
+  font-size: 7vw;
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  letter-spacing: .25rem; }
+.home-container .sub-header {
+  font-family: "Playball", cursive;
+  letter-spacing: .15rem; }
+.home-container .home-contact {
+  margin: 6vw 0;
+  text-align: center;
+  font-size: 4vw; }
+.home-container .contact-link {
+  margin-left: 1vw;
+  letter-spacing: .25rem; }
+
+@media (min-width: 768px) {
+  .home-container .home-contact {
+    font-size: 3vw;
+    margin: 4vw 0; } }
+@media (min-width: 992px) {
+  .home-container .header {
+    font-size: 4.5vw; }
+  .home-container .sub-header {
+    font-size: 3.5vw; }
+  .home-container .home-contact {
+    font-size: 1.5vw; } }
+#services .service-topper {
+  margin: 4vw 0 2vw 0; }
+#services .service-description {
+  margin: 2vw 0;
+  padding: 0 30px; }
+  #services .service-description .service-header {
+    text-align: center;
+    color: #f7f2d6;
+    font-family: "Playfair Display", sans-serif;
+    text-shadow: 1px 1px 1px #333; }
+  #services .service-description .service-header + div {
+    margin-top: 2vw; }
+  #services .service-description .one {
+    background: url(../../../images/many_lights_min.jpg) #666 no-repeat;
+    background-position-y: 35%;
+    background-position-x: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    position: relative; }
+  #services .service-description .two {
+    background: url(../../../images/pink_flower_bird_min.jpg) #666 no-repeat;
+    background-position-y: 43%;
+    background-position-x: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    position: relative; }
+  #services .service-description .three {
+    background: url(../../../images/succulents_min.jpg) #666 no-repeat;
+    background-position-y: 35%;
+    background-position-x: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    position: relative; }
+
+/*# sourceMappingURL=style.css.map */

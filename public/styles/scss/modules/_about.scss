@@ -1,0 +1,71 @@
+#about {
+  .about-description {
+    padding: 0 15px;
+    margin: 2vw 0;
+  }
+
+  .education {
+    margin-top: 2vw;
+    font-size: 0.8rem;
+
+    li {
+      margin: 0.5vw 0;
+    }
+  }
+
+  .about-header {
+    margin: 1vw auto;
+    color: $light;
+    text-align: center;
+    font-family: $header-font;
+    text-shadow: 1px 1px 1px #333;
+
+    background: url(../../../images/old_tree_min.jpg) #666 no-repeat;
+    background-position-y: 31%;
+    background-position-x: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    position: relative;
+    opacity: 1;
+  }
+
+  .headshot-container {
+    position: relative;
+    height: 100%;
+  }
+
+  .headshot {
+    width: 92%;
+    height: 180px;
+    padding: 0 15px;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+
+    background: url(../../../images/ellen_headshot.jpg) #666 no-repeat;
+    background-position-y: 23%;
+    background-position-x: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  #about {
+    .education {
+      margin-top: 0;
+    }
+  }
+}

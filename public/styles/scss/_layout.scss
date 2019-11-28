@@ -1,0 +1,59 @@
+.navbar-toggler {
+  border: none;
+  padding: 0;
+  outline: none;
+  color: $dark;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.container {
+  padding: 0 2vw;
+}
+
+.divider {
+  margin: 2vw auto;
+  height: 1px;
+  width: 70%;
+  box-shadow: 1px 1px 1px #888;
+}
+
+.footer {
+  margin-top: 10vw;
+  background: url(../../../images/hero_min.jpg) #666 no-repeat;
+  background-position-y: 93%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 4vh;
+  width: 100%;
+  position: relative;
+  opacity: 1;
+
+  .created-by {
+    color: $light;
+    font-family: $link-font;
+    text-shadow: 1px 1px 1px #333;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 2vw;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav {
+    margin: 0 auto;
+  }
+
+  .nav-link {
+    margin: -1vw 8vw;
+  }
+}

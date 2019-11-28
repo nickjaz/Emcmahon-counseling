@@ -1,0 +1,65 @@
+.hero-image {
+  background: url(../../../images/hero_min.jpg) #666 no-repeat;
+  background-position-y: 35%;
+  background-position-x: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 45vh;
+  width: 100%;
+  position: relative;
+  opacity: 1;
+}
+
+.home-container {
+
+  .header {
+    margin-top: 4vh;
+    font-size: 7vw;
+    text-align: center;
+    font-family: $header-font;
+    letter-spacing: .25rem;
+  }
+
+  .sub-header {
+    font-family: $subheader-font;
+    letter-spacing: .15rem;
+  }
+
+  .home-contact {
+    margin: 6vw 0;
+    text-align: center;
+    font-size: 4vw;
+  }
+
+  .contact-link {
+    margin-left: 1vw;
+    letter-spacing: .25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-container {
+    .home-contact {
+      font-size: 3vw;
+      margin: 4vw 0;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .home-container {
+    .header {
+      font-size: 4.5vw;
+    }
+
+    .sub-header {
+      font-size: 3.5vw;
+    }
+
+    .home-contact {
+      font-size: 1.5vw;
+    }
+  }
+}
