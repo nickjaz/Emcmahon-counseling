@@ -10,10 +10,26 @@
   width: 100%;
   position: relative;
   opacity: 1;
+
+  .clear-button {
+    width: 53%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    padding: 2vw 4vw;
+    border-radius: 10px;
+    border: 3px solid $light;
+    color: $light;
+    background: rgba(0,0,0,0.2);
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+  }
 }
 
 .home-container {
-
   .header {
     margin-top: 4vh;
     font-size: 7vw;
@@ -33,6 +49,10 @@
     font-size: 4vw;
   }
 
+  .home-phone {
+    display: none;
+  }
+
   .contact-link {
     margin-left: 1vw;
     letter-spacing: .25rem;
@@ -40,10 +60,20 @@
 }
 
 @media (min-width: 768px) {
+  .hero-image {
+    .clear-button {
+      display: none;
+    }
+  }
+
   .home-container {
     .home-contact {
       font-size: 3vw;
       margin: 4vw 0;
+    }
+
+    .home-phone {
+      display: inline-block;
     }
   }
 }

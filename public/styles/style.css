@@ -95,6 +95,7 @@ a:hover {
   width: 92%;
   height: 180px;
   padding: 0 15px;
+  border-radius: 3px;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -164,6 +165,21 @@ a:hover {
   width: 100%;
   position: relative;
   opacity: 1; }
+  .hero-image .clear-button {
+    width: 53%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    padding: 2vw 4vw;
+    border-radius: 10px;
+    border: 3px solid #f7f2d6;
+    color: #f7f2d6;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: 1.3rem;
+    letter-spacing: .1rem; }
 
 .home-container .header {
   margin-top: 4vh;
@@ -178,14 +194,21 @@ a:hover {
   margin: 6vw 0;
   text-align: center;
   font-size: 4vw; }
+.home-container .home-phone {
+  display: none; }
 .home-container .contact-link {
   margin-left: 1vw;
   letter-spacing: .25rem; }
 
 @media (min-width: 768px) {
+  .hero-image .clear-button {
+    display: none; }
+
   .home-container .home-contact {
     font-size: 3vw;
-    margin: 4vw 0; } }
+    margin: 4vw 0; }
+  .home-container .home-phone {
+    display: inline-block; } }
 @media (min-width: 992px) {
   .home-container .header {
     font-size: 4.5vw; }
