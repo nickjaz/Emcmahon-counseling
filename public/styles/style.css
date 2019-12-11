@@ -121,8 +121,7 @@ a:hover {
   font-family: "Playball", cursive;
   letter-spacing: .1rem;
   font-size: 4.5vw;
-  padding: 2vw;
-  text-align: center; }
+  padding: 1vw 3.5vw; }
 #contact .contact-item {
   padding: 0 15px;
   margin: 1vw auto; }
@@ -143,7 +142,8 @@ a:hover {
     margin-top: 0; }
   #contact .contact-header {
     font-size: 3vw;
-    letter-spacing: .2rem; }
+    letter-spacing: .2rem;
+    text-align: center; }
   #contact .map-container {
     width: 80%; } }
 @media (min-width: 992px) {
@@ -166,7 +166,7 @@ a:hover {
   position: relative;
   opacity: 1; }
   .hero-image .clear-button {
-    width: 53%;
+    width: 60%;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -199,6 +199,20 @@ a:hover {
 .home-container .contact-link {
   margin-left: 1vw;
   letter-spacing: .25rem; }
+.home-container .media-list {
+  margin: 4vw auto 2vw auto; }
+  .home-container .media-list .list-group-item {
+    background: none;
+    border: none;
+    margin: 0 .5vw; }
+    .home-container .media-list .list-group-item .media-bubble {
+      display: inline-block;
+      height: 2rem;
+      width: 2rem;
+      background-color: #383731;
+      color: #f7f2d6;
+      border-radius: 50%;
+      font-size: 1.4rem; }
 
 @media (min-width: 768px) {
   .hero-image .clear-button {

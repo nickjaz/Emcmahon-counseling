@@ -7,8 +7,7 @@
     font-family: $subheader-font;
     letter-spacing: .1rem;
     font-size: 4.5vw;
-    padding: 2vw;
-    text-align: center;
+    padding: 1vw 3.5vw;
   }
 
   .contact-item {
@@ -43,6 +42,7 @@
     .contact-header {
       font-size: 3vw;
       letter-spacing: .2rem;
+      text-align: center;
     }
 
     .map-container {

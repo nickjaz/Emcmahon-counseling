@@ -12,7 +12,7 @@
   opacity: 1;
 
   .clear-button {
-    width: 53%;
+    width: 60%;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -56,6 +56,26 @@
   .contact-link {
     margin-left: 1vw;
     letter-spacing: .25rem;
+  }
+
+  .media-list {
+    margin: 4vw auto 2vw auto;
+
+    .list-group-item {
+      background: none;
+      border: none;
+      margin: 0 .5vw;
+
+      .media-bubble {
+        display: inline-block;
+        height: 2rem;
+        width: 2rem;
+        background-color: $dark;
+        color: $light;
+        border-radius: 50%;
+        font-size: 1.4rem;
+      }
+    }
   }
 }
 
